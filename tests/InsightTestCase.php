@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Rooberthh\Insight\Tests;
 
 use Orchestra\Testbench\TestCase;
 use Rooberthh\Insight\Providers\InsightServiceProvider;
 
-class InsightTestCase extends TestCase
+final class InsightTestCase extends TestCase
 {
     protected function getPackageProviders($app): array
     {

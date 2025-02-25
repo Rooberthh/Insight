@@ -1,15 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Rooberthh\Insight\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class InsightServiceProvider extends ServiceProvider
+final class InsightServiceProvider extends ServiceProvider
 {
-    public function boot(): void
-    {
-        //
-    }
+    public function boot(): void {}
 
     public function register(): void
     {
