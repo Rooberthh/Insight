@@ -7,7 +7,7 @@ namespace Rooberthh\Insight\Tests;
 use Orchestra\Testbench\TestCase;
 use Rooberthh\Insight\Providers\InsightServiceProvider;
 
-final class InsightTestCase extends TestCase
+class InsightTestCase extends TestCase
 {
     protected function getPackageProviders($app): array
     {
